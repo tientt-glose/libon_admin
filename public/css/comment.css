@@ -1,0 +1,42 @@
+.icon_button {
+    cursor: pointer;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(top, #f1f1f1, #fff);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    min-width: 34px;
+    color: #060606;
+    text-align: center;
+    padding: 5px;
+}
+
+.delete-confirm {
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+.filter {
+    width: 200px;
+    margin-right: 1rem;
+}
+
+/* #pub-select .select2-container .select2-selection--single,
+#category-select .select2-container .select2-selection--single {
+    height: 38px;
+}
+
+#pub-select
+    .select2-container
+    .select2-selection--single
+    .select2-selection__arrow,
+#category-select
+    .select2-container
+    .select2-selection--single
+    .select2-selection__arrow {
+    height: 36px;
+} */
+
+.table .btn {
+    width: 70%;
+    margin-bottom: 5px;
+}

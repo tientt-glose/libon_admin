@@ -1,0 +1,9 @@
+.card-orange.card-outline {
+    border-top: 3px solid #d53d26;
+}
+
+.btn-orange {
+    background-color: #d53d26;
+    border-color: #ddd;
+    color: #fff;
+}
