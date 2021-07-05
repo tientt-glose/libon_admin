@@ -40,6 +40,7 @@
     $('#output_book_button').click(function () {
         var list_barcode = $('#barcode_add').val().split(/\r\n|\n|\r/)
         var book_id = []
+        list_barcode = list_barcode.filter(Boolean)
         if (list_barcode.length > $('#order-table-body tr td:nth-child(4)').length) {
             $('#barcode_add').val('')
             return toastr.error('Số sách nhập vào không được lớn hơn số sách trong đơn');
