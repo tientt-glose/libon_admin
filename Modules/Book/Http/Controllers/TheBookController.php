@@ -75,6 +75,7 @@ class TheBookController extends Controller
             // dd($params['barcode']);
             // 00001000020000300004000050000600007
             $listBarcode = preg_split('/\R/', $params['barcode']);
+            $listBarcode = array_unique($listBarcode);
             // $test = explode(PHP_EOL, $params['barcode']);
             // dd($test);
 

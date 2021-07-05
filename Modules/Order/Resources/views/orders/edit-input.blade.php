@@ -40,7 +40,9 @@
     $('#input_book_button').click(function () {
         var list_barcode = $('#barcode_add').val()
         var book_id = []
-        if (list_barcode.split(/\r\n|\n|\r/).length > $('#order-table-body tr td:nth-child(4)').length) {
+        check = list_barcode.split(/\r\n|\n|\r/)
+        check = check.filter(Boolean)
+        if (check.length > $('#order-table-body tr td:nth-child(4)').length) {
             $('#barcode_add').val('')
             return toastr.error('Số sách nhập vào không được lớn hơn số sách trong đơn');
         }
