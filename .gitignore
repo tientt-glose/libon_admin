@@ -1,0 +1,44 @@
+/node_modules
+/public/hot
+/public/storage/
+/public/admin-lte3/docs
+/public/admin-lte3/pages
+/public/admin-lte3/docs_html/
+/public/admin-lte3/.jekyll-cache/
+/public/admin-lte3/.jekyll-metadata
+/public/admin-lte3/.cache/
+
+
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.DS_Store
+._.DS_Store
+
+# System / Log files
+*.DS_Store
+*._.DS_Store
+*.log
+
+# Archives
+*.zip
+
+# Sass Cache
+.sass-cache
+
+# Project files
+.idea
+nbproject
+nbproject/private
+.vscode/
+.vs/
+
+# Node / Bower
+node_modules/
+bower_components/

@@ -1,0 +1,128 @@
+.image-book {
+    width: 90px;
+}
+
+.table#order-table .btn {
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.status {
+    /* position: relative; */
+    height: 120px;
+    z-index: 11;
+    /* margin-bottom: 30px; */
+}
+.progress {
+    background: none;
+    height: 25px;
+    top: 0%;
+    left: 5%;
+    /* position: absolute !important; */
+}
+.progress-bar {
+    font-size: 18px;
+    font-weight: bold;
+    background: none;
+    /* position: absolute !important; */
+    color: #1cb0ae;
+}
+.line {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    background: #d9d9d9;
+    height: 5px;
+    z-index: 10;
+}
+.circle {
+    position: absolute;
+    z-index: 1050;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 5px solid #d9d9d9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    top: 30%;
+}
+.circle .fa {
+    color: #fff;
+}
+.circle .fa-times {
+    display: none;
+}
+.done .circle {
+    background: #fff;
+    border-color: #1cb0ae;
+}
+.done .circle .fa-spin {
+    display: none;
+}
+.done .circle .fa-times {
+    display: none;
+}
+.done .circle .fa-check {
+    color: #1cb0ae;
+}
+.done .line {
+    background: #1cb0ae;
+}
+
+.cancel .progress .progress-bar {
+    color: #dd4b39;
+}
+
+.cancel .line {
+    background: #dd4b39;
+}
+.cancel .circle {
+    background: #fff;
+    border-color: #dd4b39;
+}
+.cancel .circle .fa-spin {
+    display: none;
+}
+.cancel .circle .fa-check {
+    display: none;
+}
+.cancel .circle .fa-times {
+    display: contents;
+    color: #dd4b39;
+}
+.sticky + .content {
+    padding-top: 30px;
+}
+.spin .circle {
+    background: #1cb0ae;
+}
+.spin .circle .fa-check {
+    display: none;
+}
+.spin .circle .fa-times {
+    display: none;
+}
+.wait .circle {
+    background: #efefef;
+}
+.wait .circle .fa-spin,
+.wait .circle .fa-check .fa-times {
+    display: none;
+}
+.quanity {
+    width: 40px;
+}
+#process-bar {
+    /* position: relative !important; */
+    margin: 0px;
+}
+
+.offset-1 {
+    margin-left: 12%;
+}
+
+.badge-warning {
+    color: #ffffff;
+    background-color: orange;
+}
